@@ -1,6 +1,6 @@
 {
   "homepage": "https://sungjun0110.github.io/website",
-  "name": "my-react-website",
+  "name": "my-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,7 +44,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^3.2.0"
-  }
+  "devDependencies": {}
 }

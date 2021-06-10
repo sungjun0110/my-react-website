@@ -1,0 +1,6 @@
+#about {
+  background-color: var(--color2);
+  clip-path: ellipse(200% 50% at 50% 50%);
+  text-align: center;
+  padding: 3rem 0;
+}

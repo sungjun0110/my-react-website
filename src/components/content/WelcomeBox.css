@@ -1,0 +1,99 @@
+#welcome-box {
+  text-align: center;
+  color: var(--color7);
+}
+
+#picture-frame {
+  position: relative;
+  width: 100%;
+  background-color: var(--color2);
+  clip-path: ellipse(100% 100% at 50% 0%);
+  z-index: 2;
+}
+
+#picture-frame img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+#welcome-text {
+  position: relative;
+  z-index: 2;
+}
+
+#welcome-info {
+  position: relative;
+  z-index: 2;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  border-left: 1px solid var(--color7);
+}
+
+.scroll-text {
+  writing-mode: vertical-rl;
+  color: var(--color7);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #welcome-box {
+    height: calc(100vh + 200px);  
+  }
+
+  #picture-frame {
+    height: 45vh;
+  }
+
+  #picture-frame img {
+    width: 10rem;
+    height: 10rem;
+    bottom: .5rem;
+  }
+
+  .vertical-line {
+    bottom: -200px;
+    height: 280px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #welcome-box {
+    height: calc(100vh + 200px);  
+  }
+
+  #picture-frame {
+    height: 45vh;
+  }
+
+  #picture-frame img {
+    width: 12rem;
+    height: 12rem;
+    bottom: 1rem;
+  }
+
+  .vertical-line {
+    bottom: -200px;
+    height: 280px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

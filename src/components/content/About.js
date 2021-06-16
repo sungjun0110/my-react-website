@@ -7,25 +7,25 @@ import { IconContext } from 'react-icons'
 function About() {
   const ref = useRef();
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {
-        console.log(entry);
-        if (entry.isIntersecting) {
-          console.log("it works")
-        }
-      }, 
-      {
-        root: null,
-        rootMargin: "0px",
-        threshold: 1
-      }
-    )
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver(([entry]) => {
+  //       console.log(entry);
+  //       if (entry.isIntersecting) {
+  //         console.log("it works")
+  //       }
+  //     }, 
+  //     {
+  //       root: null,
+  //       rootMargin: "0px",
+  //       threshold: 1
+  //     }
+  //   )
 
-    if (ref.current) {
-      observer.observe(ref.current)
-    }
+  //   if (ref.current) {
+  //     observer.observe(ref.current)
+  //   }
 
-  }, [ref])
+  // }, [ref])
 
   return (
     <div id="about-page" ref={ref}>

@@ -9,7 +9,7 @@ function Footer() {
       
 
       <div id="footer-icons">
-        <FaGithub />
+        <a href="https://github.com/sungjun0110"><FaGithub /></a>
       </div>
 
       <p>© 2011 Sungjun Choi</p>

@@ -20,6 +20,10 @@
   font-size: var(--text-font-size);
 }
 
+#experiments {
+  color: var(--color7);
+}
+
 .main-col {
   display: flex;
   flex-wrap: wrap;

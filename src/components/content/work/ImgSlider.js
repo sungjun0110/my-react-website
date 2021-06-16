@@ -4,6 +4,7 @@ import 'swiper/swiper-bundle.css'
 import './ImgSlider.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
+
 SwiperCore.use([Navigation, Scrollbar]);
 
 function ImgSlider( props ) {

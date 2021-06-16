@@ -4,6 +4,8 @@ import Footer from './components/footer/Footer'
 import Homepage from './components/content/Homepage'
 import Covidtracker from './components/content/work/Covidtracker'
 import Sushikuma from './components/content/work/Sushikuma'
+import AndroidApp from './components/content/work/Sosapp'
+import TinderClone from './components/content/work/Tinderclone'
 import { Switch, Route } from 'react-router-dom'
 
 function App() {
@@ -12,8 +14,10 @@ function App() {
       <Header />
         <Switch>
           <Route path="/" exact component={Homepage} />
-          <Route path="/covidtracker" onClick={() => window.scrollTo(0,0)} component={Covidtracker} />
+          <Route path="/covidtracker" component={Covidtracker} />
           <Route path="/touchfreemenu" component={Sushikuma} />
+          <Route path="/androidapp" component={AndroidApp} />
+          <Route path="/tinderclone" component={TinderClone} />
         </Switch>
       <Footer /> 
     </>

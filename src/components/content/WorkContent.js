@@ -1,6 +1,10 @@
 import React from 'react'
 import './WorkContent.css'
 import WorkContentBox from './WorkContentBox'
+import ncovtracker from '../../img/ncovtracker.png'
+import sushikuma from '../../img/sushikumalogo.png'
+import sosimg from '../../img/sosimg.png'
+import tinderClone from '../../img/tinderclonelogo.png'
 
 function WorkContent( props ) {
   return (
@@ -10,26 +14,42 @@ function WorkContent( props ) {
           <h1>Portfolio</h1>
           <div className="main-col">
             <WorkContentBox 
-              imgUrl="/img/ncovtracker.png" 
+              imgUrl={sosimg}
+              path="/androidapp" 
+              alt="application" 
+              description="Android application" 
+            />
+            <WorkContentBox 
+              imgUrl={ncovtracker} 
               path="/covidtracker" 
               alt="ncovtracker.com" 
               description="Covid Tracker" 
             />
             <WorkContentBox 
-              imgUrl="/img/sushikumalogo.png" 
+              imgUrl={sushikuma}
               path="/touchfreemenu" 
               alt="sushikuma.net" 
               description="Touch-free restaurant menu" 
             />
-
             <WorkContentBox 
-              imgUrl="/img/sushikumalogo.png" 
+              imgUrl={sushikuma}
               path="/touchfreemenu" 
               alt="sushikuma.net" 
               description="Touch-free restaurant menu" 
             />
           </div>
-          <p>More stuff coming soon...</p>
+        </div>
+
+        <div id="experiments">
+          <h1>Experiments</h1>
+          <div className="main-col">
+            <WorkContentBox
+              imgUrl={tinderClone} 
+              path="/tinderclone" 
+              alt="tinderclone"
+              description="Tinder Clone"
+            />
+          </div>
         </div>
       </div>
     </>

@@ -23,8 +23,10 @@ function Sushikuma() {
             I used 5 breakpoints to make this minimalistic restaurant menu to handle different various display sizes in an efficient way. This website is built with React because I found that Rreact library is the most popular one and its component management is easy to keep the front-end structure simple. 
           </p>
           <p>
-            Visit the site at sushikuma.net
-          </p>
+          <a href="https://github.com/sungjun0110/Sushi-Kuma-React" target="_blank">Visit Github</a>
+          <br/>
+          <a href="http://www.sushikuma.net/" target="_blank">Visit Live Website</a>
+        </p>
 
           <p className="built-date">December 2020</p>
         </div>

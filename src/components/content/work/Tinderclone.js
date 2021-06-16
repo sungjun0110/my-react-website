@@ -17,7 +17,11 @@ function Covidtracker() {
         <p>
         This is a very simple Tinder clone website. I built this to execute MERN stack that I recently learn. Image URLs and names on the cards are stored in MongoDB. 
         </p>
-        <p>Visit Github</p>
+        <p>
+          <a href="https://github.com/sungjun0110/tinder-clone" target="_blank">Visit Github</a>
+          <br/>
+          <a href="https://sungjun0110.github.io/tinder-clone/" target="_blank">Visit Live Website</a>
+        </p>
         <p className="built-date">May 2021</p>
       </div>
     </div>

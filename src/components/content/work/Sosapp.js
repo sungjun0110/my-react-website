@@ -20,7 +20,9 @@ function Covidtracker() {
         <p>
           This app is built with Java and Google Map API. What it can do is it can send a text message to contacts saved in the app and make a loud siren noise with one button click. I also added a flashlight feature that can blink “SOS” in morse code or stay turned on for normal flashlight.
         </p>
-        <p>Visit Github</p>
+        <p>
+          <a href="https://github.com/sungjun0110/SOS4ursafety" target="_blank">Visit Github</a>
+        </p>
         <p className="built-date">December 2019</p>
       </div>
     </div>

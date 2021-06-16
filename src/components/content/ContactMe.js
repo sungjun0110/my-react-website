@@ -27,10 +27,10 @@ function ContactMe() {
         <textarea id="massage-input" name="message" placeholder="Message" required /><br/>
         <input type="submit" value="Send" />
         <div id="resume-div">
-          <Link>
+          <a href="https://github.com/sungjun0110/resume/raw/main/Sungjun_Choi_Resume.docx" target="_blank">
             Download Resume
             <FaFileDownload size="1rem"/>
-          </Link>
+          </a>
         </div>
       </form>
     </div>

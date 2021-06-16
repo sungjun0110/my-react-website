@@ -28,7 +28,11 @@ function Covidtracker() {
         <p>
           In the beginning, I manually updated the database because there were only few countries with confirmed cases. But the manual update was not efficient at all after the virus started spreading rapidly. So, I wrote python scripts to update the database automatically. This website is very first one that I built, so I learned a lot from building this. 
         </p>
-        <p>Visit the website at ncovtracker.com</p>
+        <p>
+          <a href="https://github.com/sungjun0110/nCoVtracker" target="_blank">Visit Github</a>
+          <br/>
+          <a href="http://ncovtracker.com/" target="_blank">Visit Live Website</a>
+        </p>
         <p className="built-date">April 2020</p>
       </div>
     </div>

@@ -7,6 +7,12 @@
   font-size: var(--title-font-size);
 }
 
+#portfolio h2 {
+  margin-top: 8rem;
+  font-size: 3rem;
+  color: var(--color7);
+}
+
 #portfolio h1::after {
   display: block;
   content: '';
@@ -144,8 +150,6 @@
     left: 5vw; 
     right: 5vw;
   }
-
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -24,8 +24,8 @@ function WelcomeBox() {
       <div id="picture-frame">
         <img src={profilePhoto}></img>
       </div>
-      <div id="welcome-text"><h1>Hello!<br/>I am Sungjun!</h1></div>
-      <div id="welcome-info"><h3>Web Developer</h3></div>
+      <div id="welcome-text"><p>Hello!<br/>I am Sungjun!</p></div>
+      <div id="welcome-info"><p>Web Developer</p></div>
       <div 
         className="vertical-line" 
         style={dimScrollTxt()}>

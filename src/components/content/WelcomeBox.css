@@ -21,11 +21,20 @@
 #welcome-text {
   position: relative;
   z-index: 2;
+  font-weight: bold;
+  color: var(--color7);
+}
+
+#welcome-text p {
+  margin-top: .3rem;
+  margin-bottom: 0;
 }
 
 #welcome-info {
   position: relative;
   z-index: 2;
+  color: var(--color7);
+  font-weight: bold;
 }
 
 .vertical-line {
@@ -59,6 +68,18 @@
     bottom: -200px;
     height: 280px;
   }
+
+  #welcome-text {
+    font-size: 2rem;
+  }
+  
+  #welcome-text p {
+    margin-top: .3rem;
+  }
+  
+  #welcome-info {
+    font-size: 1.5rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -81,19 +102,61 @@
     bottom: -200px;
     height: 280px;
   }
+
+  #welcome-text {
+    font-size: 2.5rem;
+  }
+  
+  #welcome-text p {
+    margin-top: .3rem;
+  }
+  
+  #welcome-info {
+    font-size: 1.75rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+  #welcome-text {
+    font-size: 3rem;
+  }
+  
+  #welcome-text p {
+    margin-top: .3rem;
+  }
+  
+  #welcome-info {
+    font-size: 2rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+  #welcome-text {
+    font-size: 3rem;
+  }
+  
+  #welcome-text p {
+    margin-top: .3rem;
+  }
+  
+  #welcome-info {
+    font-size: 2rem;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+  #welcome-text {
+    font-size: 3rem;
+  }
+  
+  #welcome-text p {
+    margin-top: .3rem;
+  }
+  
+  #welcome-info {
+    font-size: 2rem;
+  }
 }

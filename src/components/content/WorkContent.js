@@ -50,8 +50,6 @@ function WorkContent( props ) {
               description="Android application" 
             />
           </div>
-
-          <h2>More stuff coming soon...</h2>
         </div>
       </div>
     </>

@@ -13,10 +13,10 @@ function WelcomeBox() {
     if (offset == null) {
       return {opacity: 1}
     }
-    if (offset > 300) {
+    if (offset > 500) {
       return {opacity: 0}
     }
-    return {opacity: 1 - (offset/300)}
+    return {opacity: 1 - (offset/500)}
   }
 
   return (

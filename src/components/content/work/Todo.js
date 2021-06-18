@@ -27,7 +27,7 @@ function Todo() {
           <br/>
           <a href="https://sc-todo-list.herokuapp.com/" target="_blank">Visit Live Website</a>
         </p>
-        <p className="built-date">May 2021</p>
+        <p className="built-date">June 2021</p>
       </div>
     </div>
   )

@@ -39,6 +39,12 @@ function WorkContent( props ) {
               alt="to-do list" 
               description="To-do list web app" 
             />
+            <WorkContentBox 
+              imgUrl={todoImg}
+              path="/journal" 
+              alt="journal" 
+              description="To-do list web app" 
+            />
           </div>
 
           <h2>App</h2>

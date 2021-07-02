@@ -6,6 +6,7 @@ import sushikuma from '../../img/sushikumalogo.png'
 import sosimg from '../../img/sosimg.png'
 import tinderClone from '../../img/tinderclonelogo.png'
 import todoImg from '../../img/todo1.png'
+import journalImg from '../../img/urjournal4.png'
 
 function WorkContent( props ) {
   return (
@@ -40,10 +41,10 @@ function WorkContent( props ) {
               description="To-do list web app" 
             />
             <WorkContentBox 
-              imgUrl={todoImg}
+              imgUrl={journalImg}
               path="/journal" 
               alt="journal" 
-              description="To-do list web app" 
+              description="Social media web app" 
             />
           </div>
 

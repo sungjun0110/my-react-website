@@ -15,13 +15,13 @@ function App() {
     <>
       <Header />
         <Switch>
-          <Route path="/" exact component={Homepage} />
-          <Route path="/covidtracker" component={Covidtracker} />
-          <Route path="/touchfreemenu" component={Sushikuma} />
-          <Route path="/androidapp" component={AndroidApp} />
-          <Route path="/tinderclone" component={TinderClone} />
-          <Route path="/todolist" component={TodoList} />
-          <Route path="/journal" component={Journal} />
+          <Route path="/website/" exact component={Homepage} />
+          <Route path="/website/covidtracker" component={Covidtracker} />
+          <Route path="/website/touchfreemenu" component={Sushikuma} />
+          <Route path="/website/androidapp" component={AndroidApp} />
+          <Route path="/website/tinderclone" component={TinderClone} />
+          <Route path="/website/todolist" component={TodoList} />
+          <Route path="/website/journal" component={Journal} />
         </Switch>
       <Footer /> 
     </>

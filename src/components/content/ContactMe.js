@@ -2,7 +2,6 @@ import React from 'react'
 import './ContactMe.css'
 import emailjs from 'emailjs-com'
 import { FaFileDownload } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
 
 
 function ContactMe() {

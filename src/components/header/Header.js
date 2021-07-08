@@ -17,7 +17,7 @@ function Header() {
   return (
       <nav>
         <ul>
-          <Link smooth to='/#home'>
+          <Link smooth to='/website/#home'>
             <li 
               className={(url === '#home' || url === '')? 'active' : null} 
               onClick={() => getUrl('#home')}
@@ -25,7 +25,7 @@ function Header() {
               Home
             </li>
           </Link>
-          <Link smooth to='/#about'>
+          <Link smooth to='/website/#about'>
             <li 
               className={(url === '#about')? 'active' : null} 
               onClick={() => getUrl('#about')}
@@ -33,7 +33,7 @@ function Header() {
               About
             </li>
           </Link>
-          <Link smooth to='/#portfolio'>
+          <Link smooth to='/website/#portfolio'>
             <li 
               className={(url === '#portfolio')? 'active' : null}
               onClick={() => getUrl("#portfolio")}  
@@ -41,7 +41,7 @@ function Header() {
               Portfolio
             </li>
           </Link>
-          <Link smooth to ='/#contact'>
+          <Link smooth to ='/website/#contact'>
             <li 
               className={(url === '#contact')? 'active' : null} 
               onClick={() => getUrl("#contact")}

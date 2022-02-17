@@ -1,6 +1,5 @@
-import React from 'react'
 import './WorkContent.css'
-import WorkContentBox from './WorkContentBox'
+import WorkContentBox from '../../pages/WorkCententPage/WorkContentPage'
 import ncovtracker from '../../img/ncovtracker.png'
 import sushikuma from '../../img/sushikumalogo.png'
 import sosimg from '../../img/sosimg.png'

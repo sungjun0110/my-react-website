@@ -1,4 +1,3 @@
-import React from 'react'
 import './Footer.css';
 import { IconContext } from 'react-icons'
 import { FaArrowUp, FaGithub } from 'react-icons/fa'
@@ -12,7 +11,7 @@ function Footer() {
         <a href="https://github.com/sungjun0110"><FaGithub /></a>
       </div>
 
-      <p>© 2021 Sungjun Choi</p>
+      <p>© 2022 Sungjun Choi</p>
 
       <IconContext.Provider value={{size: "3rem"}}>
         <div className="scroll-up" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>

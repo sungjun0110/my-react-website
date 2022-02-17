@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './WelcomeBox.css'
-import profilePhoto from '../../img/profile-photo.gif'
+import profilePhoto from '../../img/profile-photo.gif';
 
 function WelcomeBox() {
   const [offset, setOffset] = useState()
@@ -21,11 +21,13 @@ function WelcomeBox() {
 
   return (
     <div id="welcome-box">
-      <div id="picture-frame">
-        <img src={profilePhoto}></img>
+      <div id="picture-frame-wrap">
+        <div id="picture-frame">
+          <img src={profilePhoto} alt='profile'></img>
+        </div>
       </div>
       <div id="welcome-text"><p>Hello!<br/>I am Sungjun!</p></div>
-      <div id="welcome-info"><p>Web Developer</p></div>
+      <div id="welcome-info"><p>Software Engineer</p></div>
       <div 
         className="vertical-line" 
         style={dimScrollTxt()}>

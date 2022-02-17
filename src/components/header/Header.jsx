@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { HashLink as Link } from 'react-router-hash-link'
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
@@ -17,7 +17,7 @@ function Header() {
   return (
       <nav>
         <ul>
-          <Link smooth to='/website/#home'>
+          <Link smooth to='/#home'>
             <li 
               className={(url === '#home' || url === '')? 'active' : null} 
               onClick={() => getUrl('#home')}
@@ -25,7 +25,7 @@ function Header() {
               Home
             </li>
           </Link>
-          <Link smooth to='/website/#about'>
+          <Link smooth to='/#about'>
             <li 
               className={(url === '#about')? 'active' : null} 
               onClick={() => getUrl('#about')}
@@ -33,7 +33,7 @@ function Header() {
               About
             </li>
           </Link>
-          <Link smooth to='/website/#portfolio'>
+          <Link smooth to='/#portfolio'>
             <li 
               className={(url === '#portfolio')? 'active' : null}
               onClick={() => getUrl("#portfolio")}  
@@ -41,7 +41,7 @@ function Header() {
               Portfolio
             </li>
           </Link>
-          <Link smooth to ='/website/#contact'>
+          <Link smooth to ='/#contact'>
             <li 
               className={(url === '#contact')? 'active' : null} 
               onClick={() => getUrl("#contact")}

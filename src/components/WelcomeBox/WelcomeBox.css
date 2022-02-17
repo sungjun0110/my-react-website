@@ -3,12 +3,15 @@
   color: var(--color7);
 }
 
+#picture-frame-wrap {
+  filter: drop-shadow(0px 10px 10px rgba(26, 26, 26, 0.5));
+}
+
 #picture-frame {
   position: relative;
   width: 100%;
   background-color: var(--color2);
   clip-path: ellipse(100% 100% at 50% 0%);
-  z-index: 2;
 }
 
 #picture-frame img {

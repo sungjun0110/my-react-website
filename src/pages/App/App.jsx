@@ -2,27 +2,29 @@ import './App.css';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Homepage from '../HomePage/Homepage';
-// import Covidtracker from './components/content/work/Covidtracker'
+import Covidtracker from '../WorkPage/Covidtracker';
 // import Sushikuma from './components/content/work/Sushikuma'
 // import AndroidApp from './components/content/work/Sosapp'
 // import TinderClone from './components/content/work/Tinderclone'
 // import Journal from './components/content/work/Journal'
 // import TodoList from './components/content/work/Todo'
-import { Switch, Route } from 'react-router-dom'
+import { Routes, Route, useNavigate } from 'react-router-dom'
 
 function App() {
+  const Navigate = useNavigate();
   return (
     <>
       <Header />
-        <Switch>
-          <Route path="/website/" exact component={Homepage} />
-          {/* <Route path="/website/covidtracker" component={Covidtracker} />
-          <Route path="/website/touchfreemenu" component={Sushikuma} />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/covidtracker" element={<Covidtracker />} />
+          {/* <Route path="/website/touchfreemenu" component={Sushikuma} />
           <Route path="/website/androidapp" component={AndroidApp} />
           <Route path="/website/tinderclone" component={TinderClone} />
           <Route path="/website/todolist" component={TodoList} />
           <Route path="/website/journal" component={Journal} /> */}
-        </Switch>
+          <Route path="/*" component={<Navigate to="/" />} />
+        </Routes>
       <Footer /> 
     </>
   );

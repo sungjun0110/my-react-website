@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import './About.css'
+import './AboutPage.css'
 import { FaReact, FaJava, FaCss3, FaGit, FaGithub, FaJs, FaNpm, FaNode, FaPhp, FaPython, FaWordpressSimple, FaWindows, FaHtml5, FaNodeJs } from 'react-icons/fa'
 import { IconContext } from 'react-icons'
 

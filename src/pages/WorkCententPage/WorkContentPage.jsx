@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-function WorkContentBox( props ) {
+function WorkContentPage( props ) {
   const [hover,setHover] = useState(false)
   const [imgStyle, setImgStyle] = useState({opacity: 1})
 
@@ -38,4 +38,4 @@ function WorkContentBox( props ) {
   )
 }
 
-export default WorkContentBox
+export default WorkContentPage

@@ -4,8 +4,6 @@ import ncovtracker from '../../img/ncovtracker.png'
 import sushikuma from '../../img/sushikumalogo.png'
 import sosimg from '../../img/sosimg.png'
 import tinderClone from '../../img/tinderclonelogo.png'
-import todoImg from '../../img/todo1.png'
-import journalImg from '../../img/urjournal4.png'
 
 function WorkContentPage( props ) {
   return (
@@ -20,6 +18,18 @@ function WorkContentPage( props ) {
               path="/website/givetake" 
               alt="ncovtracker.com" 
               description="Give & Take" 
+            />
+            <WorkContentBox 
+              image='https://camo.githubusercontent.com/425d960e5e081b35841fe69f771b807ed024084ca256570004299434f007c377/68747470733a2f2f692e696d6775722e636f6d2f6b67616c55504b2e706e67' 
+              path="/website/photopin" 
+              alt="ncovtracker.com" 
+              description="Photo Pins" 
+            />
+            <WorkContentBox 
+              image='https://camo.githubusercontent.com/7b49f44b3c1770e78b0cc220ba87e85c77e8ee9e5bf5a0d3190d1033c18c551d/68747470733a2f2f692e696d6775722e636f6d2f6a54464b44626f2e706e67' 
+              path="/website/photopin" 
+              alt="ncovtracker.com" 
+              description="Photo Pins" 
             />
             <WorkContentBox 
               image={ncovtracker} 
@@ -38,12 +48,6 @@ function WorkContentPage( props ) {
               path="/website/tinderclone" 
               alt="tinderclone"
               description="Tinder Clone"
-            />
-            <WorkContentBox 
-              image={todoImg}
-              path="/website/todolist" 
-              alt="to-do list" 
-              description="To-do list web app" 
             />
           </div>
 

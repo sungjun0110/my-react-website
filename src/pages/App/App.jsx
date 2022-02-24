@@ -6,6 +6,7 @@ import Covidtracker from '../WorkPage/Covidtracker';
 import Sushikuma from '../WorkPage/Sushikuma'
 import Givetake from '../WorkPage/Givetake';
 import PhotoPin from '../WorkPage/PhotoPin';
+import Minesweeper from '../WorkPage/Minesweeper';
 // import AndroidApp from './components/content/work/Sosapp'
 // import TinderClone from './components/content/work/Tinderclone'
 // import Journal from './components/content/work/Journal'
@@ -23,6 +24,7 @@ function App() {
           <Route path="/website/sushikuma" element={<Sushikuma />} />
           <Route path="/website/givetake" element={<Givetake />} />
           <Route path="/website/photopin" element={<PhotoPin />} />
+          <Route path="/website/minesweeper" element={<Minesweeper />} />
           {/* <Route path="/website/androidapp" component={AndroidApp} />
           <Route path="/website/tinderclone" component={TinderClone} />
           <Route path="/website/todolist" component={TodoList} />

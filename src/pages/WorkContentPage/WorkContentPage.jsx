@@ -27,9 +27,9 @@ function WorkContentPage( props ) {
             />
             <WorkContentBox 
               image='https://camo.githubusercontent.com/7b49f44b3c1770e78b0cc220ba87e85c77e8ee9e5bf5a0d3190d1033c18c551d/68747470733a2f2f692e696d6775722e636f6d2f6a54464b44626f2e706e67' 
-              path="/website/photopin" 
+              path="/website/minesweeper" 
               alt="ncovtracker.com" 
-              description="Photo Pins" 
+              description="minesweeper" 
             />
             <WorkContentBox 
               image={ncovtracker} 

@@ -15,13 +15,13 @@ function Covidtracker() {
   return (
     <div className='site-description'>
       <ImgSlider photos={photos} />
-      <h1>Photo Pins</h1>
+      <h1>Minesweeper</h1>
       <div className="paragraph">
         <p>
-          When sharing a picture with a friend, I often want to leave a mark on the picture without editing so that my friend can find what I am talking about right away. 
+            I've played Minesweeper since when I was 10. This game is really simple to play but hard to win. 
         </p>
         <p>
-          Photo Pins is where you can upload a photo and freely leave a pin on it. 
+            Recursion is really good method to resolve the technical issues while making the game. It was really fun to implement what I've learned into a game. 
         </p>
         <p>
           <a href="https://github.com/sungjun0110/project4" target="_blank">Visit Github</a>

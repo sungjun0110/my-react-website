@@ -17,13 +17,11 @@ function WorkContentPage({ image, path, alt, description }) {
       onMouseEnter={() => setHover(!hover)} 
       onMouseLeave={() => setHover(!hover)} 
     >    
-      <div className="img-background">
-        <img 
-          src={image} 
-          style={imgStyle} 
-          alt={alt} 
-        />
-      </div>
+      <img 
+        src={image} 
+        style={imgStyle} 
+        alt={alt} 
+      />
       <div className="work-img-text">
         <h4>{description}</h4>
         <Link to={path}>

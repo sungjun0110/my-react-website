@@ -1,19 +1,19 @@
-import React, { useEffect } from 'react'
-import Slider from './ImgSlider'
+import { useEffect } from 'react'
+import ImgSlider from '../../components/ImgSlider/ImgSlider';
 import './Workpage.css'
-import photo1 from '../../../img/sushikuma0.png'
-import photo2 from '../../../img/sushikuma1.png'
-import photo3 from '../../../img/sushikuma2.png'
+import photo1 from '../../img/sushikuma0.png'
+import photo2 from '../../img/sushikuma1.png'
+import photo3 from '../../img/sushikuma2.png'
 
 
 function Sushikuma() {
-  const urls = [photo1, photo2, photo3]
+  const photos = [photo1, photo2, photo3]
 
   useEffect(() => {window.scrollTo(0,0)})
 
   return (   
     <div className='site-description'>
-      <Slider urls={urls} />
+      <ImgSlider photos={photos} />
       <h1>Touch-Free Menu</h1>
         <div className="paragraph">
           <p>

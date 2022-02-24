@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-function WorkContentPage( props ) {
+function WorkContentPage({ image, path, alt, description }) {
   const [hover,setHover] = useState(false)
   const [imgStyle, setImgStyle] = useState({opacity: 1})
 
   useEffect(() => {
-    if (hover == true) {
+    if (hover) {
       setImgStyle({opacity: 0.4})
     } else setImgStyle({opacity: 1})
   }, [hover])
@@ -19,20 +19,20 @@ function WorkContentPage( props ) {
     >    
       <div className="img-background">
         <img 
-          src={props.imgUrl} 
+          src={image} 
           style={imgStyle} 
-          alt={props.alt} 
+          alt={alt} 
         />
       </div>
       <div className="work-img-text">
-        <h4>{props.description}</h4>
-        <Link to={props.path}>
+        <h4>{description}</h4>
+        <Link to={path}>
           <button className="learn-more-btn">Learn More</button>
         </Link>
       </div>
     
       <div className="work-desc">
-        {props.description}
+        {description}
       </div>
     </div>
   )

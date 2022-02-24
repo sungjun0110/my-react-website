@@ -1,17 +1,14 @@
-import React, { useEffect } from 'react'
-import Slider from './ImgSlider'
+import ImgSlider from '../../components/ImgSlider/ImgSlider'
 import './Workpage.css'
 import photo1 from '../../../img/sosimg.png'
 import photo2 from '../../../img/sosimg1.jpg'
 
 function Covidtracker() {
-  const urls=[photo1, photo2]
-
-  useEffect(() => {window.scrollTo(0,0)})
+  const photos=[photo1, photo2]
 
   return (
     <div className='site-description'>
-      <Slider urls={urls} />
+      <ImgSlider photos={photos} />
       <h1>Android Application</h1>
       <div className="paragraph">
         <p>

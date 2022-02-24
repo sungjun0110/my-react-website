@@ -1,6 +1,6 @@
 import React from 'react'
 import WelcomeBox from '../../components/WelcomeBox/WelcomeBox';
-import WorkContent from '../../components/WorkContent/WorkContent';
+import WorkContentPage from '../WorkContentPage/WorkContentPage';
 import AboutPage from '../AboutPage/AboutPage'
 import Background from '../../components/Background/Background';
 import './Homepage.css'
@@ -13,7 +13,7 @@ function Homepage() {
       <WelcomeBox />
       <div id="about">
         <AboutPage />
-        <WorkContent />
+        <WorkContentPage />
       </div>
       {/* <ContactMe /> */}
     </div>

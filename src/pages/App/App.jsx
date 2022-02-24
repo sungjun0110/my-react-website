@@ -3,7 +3,8 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Homepage from '../HomePage/Homepage';
 import Covidtracker from '../WorkPage/Covidtracker';
-// import Sushikuma from './components/content/work/Sushikuma'
+import Sushikuma from '../WorkPage/Sushikuma'
+import Givetake from '../WorkPage/Givetake';
 // import AndroidApp from './components/content/work/Sosapp'
 // import TinderClone from './components/content/work/Tinderclone'
 // import Journal from './components/content/work/Journal'
@@ -16,14 +17,15 @@ function App() {
     <>
       <Header />
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/covidtracker" element={<Covidtracker />} />
-          {/* <Route path="/website/touchfreemenu" component={Sushikuma} />
-          <Route path="/website/androidapp" component={AndroidApp} />
+          <Route path="/website/" element={<Homepage />} />
+          <Route path="/website/covidtracker" element={<Covidtracker />} />
+          <Route path="/website/sushikuma" element={<Sushikuma />} />
+          <Route path="/website/givetake" element={<Givetake />} />
+          {/* <Route path="/website/androidapp" component={AndroidApp} />
           <Route path="/website/tinderclone" component={TinderClone} />
           <Route path="/website/todolist" component={TodoList} />
           <Route path="/website/journal" component={Journal} /> */}
-          <Route path="/*" component={<Navigate to="/" />} />
+          <Route path="/*" element={<Navigate to="/website" />} />
         </Routes>
       <Footer /> 
     </>

@@ -31,7 +31,6 @@ function Covidtracker() {
         <p>
           <a href="https://github.com/sungjun0110/nCoVtracker" target="_blank">Visit Github</a>
           <br/>
-          <a href="http://ncovtracker.com/" target="_blank">Visit Live Website</a>
         </p>
         <p className="built-date">April 2020</p>
       </div>

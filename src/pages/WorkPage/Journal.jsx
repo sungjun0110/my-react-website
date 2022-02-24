@@ -1,18 +1,15 @@
-import React, { useEffect } from 'react'
-import Slider from './ImgSlider'
+import ImgSlider from '../../components/ImgSlider/ImgSlider'
 import './Workpage.css'
-import photo1 from '../../../img/urjournal1.png'
-import photo2 from '../../../img/urjournal2.png'
-import photo3 from '../../../img/urjournal3.png'
+import photo1 from '../../img/urjournal1.png'
+import photo2 from '../../img/urjournal2.png'
+import photo3 from '../../img/urjournal3.png'
 
 function Covidtracker() {
-  const urls=[photo1, photo2, photo3]
-
-  useEffect(() => {window.scrollTo(0,0)})
+  const photos=[photo1, photo2, photo3]
 
   return (
     <div className='site-description'>
-      <Slider urls={urls} />
+      <ImgSlider photos={photos} />
       <h1>Covid-19 Tracker</h1>
       <div className="paragraph">
         <p>

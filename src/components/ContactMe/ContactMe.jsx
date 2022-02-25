@@ -29,13 +29,13 @@ function ContactMe() {
         <input type="email" id="email-input" name="user_email" placeholder="Email" required /><br/>
         <textarea id="massage-input" name="message" placeholder="Message" required /><br/>
         <input type="submit" value="Send" />
-        <div id="resume-div">
+      </form>
+      <div id="resume-div">
           <a href="https://github.com/sungjun0110/resume/raw/main/Sungjun_Choi_Resume.docx" target="_blank">
             Download Resume
             <FaFileDownload size="1rem"/>
           </a>
         </div>
-      </form>
     </div>
   )
 }

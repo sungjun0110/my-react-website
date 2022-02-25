@@ -24,9 +24,9 @@ function Covidtracker() {
             Recursion is really good method to resolve the technical issues while making the game. It was really fun to implement what I've learned into a game. 
         </p>
         <p>
-          <a href="https://github.com/sungjun0110/project4" target="_blank">Visit Github</a>
+          <a href="https://github.com/sungjun0110/minesweeper" target="_blank">Visit Github</a>
           <br/>
-          <a href="https://jun-project4.herokuapp.com/" target="_blank">Visit Live Demo</a>
+          <a href="https://sungjun0110.github.io/minesweeper/" target="_blank">Visit Live Demo</a>
         </p>
         <p className="built-date">Feb 2022</p>
       </div>

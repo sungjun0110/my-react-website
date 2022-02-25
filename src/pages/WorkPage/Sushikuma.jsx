@@ -17,10 +17,10 @@ function Sushikuma() {
       <h1>Touch-Free Menu</h1>
         <div className="paragraph">
           <p>
-            My parents' restaurant chain was in need of a touch-free menu for their customers. I’ve been wanting to experiment with responsive web design, and this seemed like the perfect opportunity. 
+            A local restaurant chain was in need of a touch-free menu for their customers. I wanted to experiment with responsive web design, and this seemed like a perfect opportunity. 
           </p>
           <p>
-            I used 5 breakpoints to make this minimalistic restaurant menu to handle different various display sizes in an efficient way. This website is built with React because I found that Rreact library is the most popular one and its component management is easy to keep the front-end structure simple. 
+            I used 5 breakpoints to make this minimalistic restaurant menu to handle different various display sizes in an efficient way. This website is built with React because its component management is easy to keep the front-end structure simple. 
           </p>
           <p>
           <a href="https://github.com/sungjun0110/Sushi-Kuma-React" target="_blank">Visit Github</a>

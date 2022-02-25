@@ -15,7 +15,7 @@ function Homepage() {
         <AboutPage />
         <WorkContentPage />
       </div>
-      {/* <ContactMe /> */}
+      <ContactMe />
     </div>
   )
 }

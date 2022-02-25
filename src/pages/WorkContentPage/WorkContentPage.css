@@ -1,19 +1,19 @@
-#portfolio {
+#projects {
   padding: 2rem 0 4rem 0;
   color: var(--color7);
 }
 
-#portfolio h1 {
+#projects h1 {
   font-size: var(--title-font-size);
 }
 
-#portfolio h2 {
+#projects h2 {
   margin-top: 8rem;
   font-size: 3rem;
   color: var(--color7);
 }
 
-#portfolio h1::after {
+#projects h1::after {
   display: block;
   content: '';
   position: absolute;
@@ -22,7 +22,7 @@
   background-color: var(--color5);
 }
 
-#portfolio p {
+#projects p {
   font-size: var(--text-font-size);
 }
 
@@ -148,7 +148,7 @@
     margin: 5rem 5vw;
   }
 
-  #portfolio h1::after {
+  #projects h1::after {
     left: 5vw; 
     right: 5vw;
   }
@@ -162,7 +162,7 @@
     margin: 5rem 5vw;
   }
 
-  #portfolio h1::after {
+  #projects h1::after {
     left: 5vw; 
     right: 5vw;
   }
@@ -174,7 +174,7 @@
     flex-wrap: wrap;
   }
 
-  #portfolio h1::after {
+  #projects h1::after {
     left: 5vw; 
     right: 5vw;
   }
@@ -193,7 +193,7 @@
     flex-wrap: wrap;
   }
 
-  #portfolio h1::after {
+  #projects h1::after {
     left: 5vw; 
     right: 5vw;
   }
@@ -213,7 +213,7 @@
     max-width: 1400px;
   }
 
-  #portfolio h1::after {
+  #projects h1::after {
     height: 10px;
     width: 1200px;
     right: 5vw;

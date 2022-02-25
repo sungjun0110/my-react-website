@@ -9,8 +9,8 @@ function WorkContentPage( props ) {
   return (
     <>
       <div id="work-background">
-        <div id="portfolio">
-          <h1>Portfolio</h1>
+        <div id="projects">
+          <h1>Projects</h1>
           <h2>Web</h2>
           <div className="main-col">
           <WorkContentBox 

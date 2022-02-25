@@ -8,10 +8,20 @@ function Header() {
   useEffect(() => {
     getUrl()
     setUrl(window.location.hash)
+    console.log(window.location.hash);
   }, [])
 
   function getUrl (hash) {
       setUrl(hash)
+  }
+
+  function scrollToId(id) {
+    const elem = document.getElementById(id);
+    window.scrollTo({
+      top: elem.offsetTop,
+      behavior: "smooth",
+    });
+    setUrl(`#${id}`)
   }
 
   return (
@@ -20,7 +30,7 @@ function Header() {
           <Link smooth to='/website/#home'>
             <li 
               className={(url === '#home' || url === '')? 'active' : null} 
-              onClick={() => getUrl('#home')}
+              onClick={() => scrollToId('home')}
             >
               Home
             </li>
@@ -28,23 +38,23 @@ function Header() {
           <Link smooth to='/website/#about'>
             <li 
               className={(url === '#about')? 'active' : null} 
-              onClick={() => getUrl('#about')}
+              onClick={() => scrollToId('about')}
             >
               About
             </li>
           </Link>
-          <Link smooth to='/website/#portfolio'>
+          <Link smooth to='/website/#projects'>
             <li 
-              className={(url === '#portfolio')? 'active' : null}
-              onClick={() => getUrl("#portfolio")}  
+              className={(url === '#projects')? 'active' : null}
+              onClick={() => scrollToId('projects')}  
             >
-              Portfolio
+              Projects
             </li>
           </Link>
           <Link smooth to ='/website/#contact'>
             <li 
               className={(url === '#contact')? 'active' : null} 
-              onClick={() => getUrl("#contact")}
+              onClick={() => scrollToId('contact')}
             >
               Contact Me
             </li>

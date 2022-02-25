@@ -7,29 +7,28 @@ import Sushikuma from '../WorkPage/Sushikuma'
 import Givetake from '../WorkPage/Givetake';
 import PhotoPin from '../WorkPage/PhotoPin';
 import Minesweeper from '../WorkPage/Minesweeper';
-// import AndroidApp from './components/content/work/Sosapp'
+import AndroidApp from '../WorkPage/Sosapp';
 // import TinderClone from './components/content/work/Tinderclone'
 // import Journal from './components/content/work/Journal'
 // import TodoList from './components/content/work/Todo'
-import { Routes, Route, useNavigate } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 
 function App() {
-  const Navigate = useNavigate();
   return (
     <>
       <Header />
         <Routes>
-          <Route path="/website/" element={<Homepage />} />
+          <Route path="/website" element={<Homepage />} />
           <Route path="/website/covidtracker" element={<Covidtracker />} />
           <Route path="/website/sushikuma" element={<Sushikuma />} />
           <Route path="/website/givetake" element={<Givetake />} />
           <Route path="/website/photopin" element={<PhotoPin />} />
           <Route path="/website/minesweeper" element={<Minesweeper />} />
-          {/* <Route path="/website/androidapp" component={AndroidApp} />
-          <Route path="/website/tinderclone" component={TinderClone} />
-          <Route path="/website/todolist" component={TodoList} />
-          <Route path="/website/journal" component={Journal} /> */}
-          <Route path="/*" element={<Navigate to="/website" />} />
+          <Route path="/website/androidapp" element={<AndroidApp />} />
+          <Route path="/*" element={<Navigate replace to='/website' />} />
+          {/* <Route path="/website/tinderclone" component={TinderClone} /> */}
+          {/* <Route path="/website/todolist" component={TodoList} /> */}
+          {/* <Route path="/website/journal" component={Journal} /> */}
         </Routes>
       <Footer /> 
     </>

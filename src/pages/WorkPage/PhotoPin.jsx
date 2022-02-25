@@ -24,9 +24,9 @@ function Covidtracker() {
           Photo Pins is where you can upload a photo and freely leave a pin on it. 
         </p>
         <p>
-          <a href="https://github.com/sungjun0110/project4" target="_blank">Visit Github</a>
+          <a href="https://github.com/sungjun0110/mongoose-sns" target="_blank">Visit Github</a>
           <br/>
-          <a href="https://jun-project4.herokuapp.com/" target="_blank">Visit Live Demo</a>
+          <a href="https://mongoose-sns.herokuapp.com/photos" target="_blank">Visit Live Demo</a>
         </p>
         <p className="built-date">Feb 2022</p>
       </div>

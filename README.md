@@ -1,7 +1,7 @@
 # Portfolio Website
 
 It is a personal static website hosted with Heroku, built to showcase my recent projects. 
-Demo: https://sc-portfolio-website.herokuapp.com/
+Github Page: https://sungjun0110.github.io/website/
 Built wth React
 
 ## Structure

@@ -7,33 +7,13 @@ import { IconContext } from 'react-icons'
 function About() {
   const ref = useRef();
 
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver(([entry]) => {
-  //       console.log(entry);
-  //       if (entry.isIntersecting) {
-  //         console.log("it works")
-  //       }
-  //     }, 
-  //     {
-  //       root: null,
-  //       rootMargin: "0px",
-  //       threshold: 1
-  //     }
-  //   )
-
-  //   if (ref.current) {
-  //     observer.observe(ref.current)
-  //   }
-
-  // }, [ref])
-
   return (
     <div id="about-page" ref={ref}>
       <h1>About</h1>
       <div className="about-content">
         <div className="about-text">
           <p>
-            My name is Sungjun Choi, a self-taught Web Developer. I’m a guy who loves computer technology and likes to put it into practice.
+            My name is Sungjun Choi, a self-taught Web Developer. I'm a guy who loves computer technology and likes to put it into practice.
           </p>
           <p>
             I like to create intuitive user interface, resolve technical problems, and develop websites from scratch. While my focus is front-end technologies such as ReactJS, I also enjoy building back-end.

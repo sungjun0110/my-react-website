@@ -8,15 +8,29 @@ function Header() {
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-    setUrl(window.location.hash);
-
+    setUrl(window.location.hash); 
     return () => {
       window.removeEventListener('scroll', handleScroll);
     }
   }, [])
-
+  
   useEffect(() => {
-    if (scrollPosition > 123) {}
+    if (window.location.pathname === '/website/') {
+      const about = document.getElementById('about');
+      const projects = document.getElementById('projects');
+      const contact = document.getElementById('contact');
+
+      if (scrollPosition < about.offsetTop) setUrl('#home');
+      else if (scrollPosition < projects.offsetTop) setUrl('#about');
+      else if (scrollPosition < contact.offsetTop) setUrl('#projects');
+      else if (scrollPosition >= contact.offsetTop) setUrl('#contact');
+    } else {
+      setUrl('#projects');
+    }
+
+    return () => {
+      setUrl();
+    }
   }, [scrollPosition])
 
   function handleScroll() {

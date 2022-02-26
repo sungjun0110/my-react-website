@@ -31,7 +31,7 @@ function ContactMe() {
         <input type="submit" value="Send" />
       </form>
       <div id="resume-div">
-          <a href="https://github.com/sungjun0110/resume/raw/main/Sungjun_Choi_Resume.docx" target="_blank">
+          <a href="https://github.com/sungjun0110/resume/raw/main/resume.pdf" target="_blank">
             Download Resume
             <FaFileDownload size="1rem"/>
           </a>

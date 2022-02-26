@@ -25,9 +25,12 @@ function WelcomeBox() {
         <div id="picture-frame">
           <img src={profilePhoto} alt='profile'></img>
         </div>
+        <div id="welcome-text">
+        <p>Hello!<br/>I am Sungjun!</p>
+        <span id="welcome-info">Software Engineer</span>
       </div>
-      <div id="welcome-text"><p>Hello!<br/>I am Sungjun!</p></div>
-      <div id="welcome-info"><p>Software Engineer</p></div>
+      </div>
+      
       <div 
         className="vertical-line" 
         style={dimScrollTxt()}>

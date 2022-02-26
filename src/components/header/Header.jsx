@@ -3,16 +3,25 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
-  const [url, setUrl] = useState()
+  const [url, setUrl] = useState();
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(() => {
-    getUrl()
-    setUrl(window.location.hash)
-    console.log(window.location.hash);
+    window.addEventListener('scroll', handleScroll);
+    setUrl(window.location.hash);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    }
   }, [])
 
-  function getUrl (hash) {
-      setUrl(hash)
+  useEffect(() => {
+    if (scrollPosition > 123) {}
+  }, [scrollPosition])
+
+  function handleScroll() {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
   }
 
   function scrollToId(id) {
@@ -27,7 +36,7 @@ function Header() {
   return (
       <nav>
         <ul>
-          <Link smooth to='/website/#home'>
+          <Link smooth="true" to='/website/#home'>
             <li 
               className={(url === '#home' || url === '')? 'active' : null} 
               onClick={() => scrollToId('home')}
@@ -35,7 +44,7 @@ function Header() {
               Home
             </li>
           </Link>
-          <Link smooth to='/website/#about'>
+          <Link smooth="true" to='/website/#about'>
             <li 
               className={(url === '#about')? 'active' : null} 
               onClick={() => scrollToId('about')}
@@ -43,7 +52,7 @@ function Header() {
               About
             </li>
           </Link>
-          <Link smooth to='/website/#projects'>
+          <Link smooth="true" to='/website/#projects'>
             <li 
               className={(url === '#projects')? 'active' : null}
               onClick={() => scrollToId('projects')}  
@@ -51,7 +60,7 @@ function Header() {
               Projects
             </li>
           </Link>
-          <Link smooth to ='/website/#contact'>
+          <Link smooth="true" to ='/website/#contact'>
             <li 
               className={(url === '#contact')? 'active' : null} 
               onClick={() => scrollToId('contact')}

@@ -15,13 +15,27 @@ function Covidtracker() {
   return (
     <div className='site-description'>
       <ImgSlider photos={photos} />
-      <h1>Photo Pins</h1>
+      <h1>API & UI Development</h1>
       <div className="paragraph">
         <p>
-          When sharing a picture with a friend, I often want to leave a mark on the picture without editing so that my friend can find what I am talking about right away. 
+          When sharing a picture with a friend, I often want to leave a mark on the picture so that my friend can find what I am talking about right away. 
         </p>
         <p>
-          Photo Pins is where you can upload a photo and freely leave a pin on it. 
+          What I did:
+          <ul>
+            <li>
+              User interface to interact with photos and functionality to leave pins on the photos
+            </li>  
+            <li>
+              Functionality to keep the pins in the place on the change of screen size
+            </li>
+            <li>
+              API to store and modify pins' locations in the database 
+            </li>
+            <li>
+              Implemented OAuth 2.0 for user credential system
+            </li>
+          </ul> 
         </p>
         <p>
           <a href="https://github.com/sungjun0110/mongoose-sns" target="_blank">Visit Github</a>

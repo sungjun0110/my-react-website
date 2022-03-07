@@ -26,9 +26,9 @@ function WelcomeBox() {
           <img src={profilePhoto} alt='profile'></img>
         </div>
         <div id="welcome-text">
-        <p>Hello!<br/>I am Sungjun!</p>
-        <span id="welcome-info">Software Engineer</span>
-      </div>
+          <p>Hello!<br/>I am Sungjun!</p>
+          <span id="welcome-info">Software Engineer</span>
+        </div>
       </div>
       
       <div 

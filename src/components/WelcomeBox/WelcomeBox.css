@@ -33,7 +33,6 @@
 #welcome-text {
   position: relative;
   margin-top: 20px;
-  z-index: 2;
   font-weight: bold;
   color: var(--color7);
 }
@@ -45,7 +44,6 @@
 
 #welcome-info {
   position: relative;
-  z-index: 2;
   color: var(--color7);
   font-weight: bold;
 }

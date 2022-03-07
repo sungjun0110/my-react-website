@@ -18,10 +18,18 @@ function Covidtracker() {
       <h1>Give & Take</h1>
       <div className="paragraph">
         <p>
-          Environmental issues have been threatening many lives on Earth over the past several years. One day, I found that there are so many used items in good condition in my room that I no longer use, and I thought that exchanging the items with other used items without spending money would be a good idea to reduce excessive production.
+          One day, I found that there are so many used items in good condition in my room that I no longer use, and I thought that exchanging the items with other without spending money would be a good idea.
         </p>
         <p>
-          Give & take is a website to post your used items and send an offer to exchange their used items. Once you log in, you would see items posted by other users on Items page. You can post your item in My Items page where you can see what you've posted as well. Once an offer is made, it will be shown in Exchanges page and once the offer is completed, it will be shown in History page.
+          What I Did:
+          <ul>
+            <li>
+              Pages to view items and exchanges
+            </li>
+            <li>
+              API to handle request/response data between a client and MongoDB database
+            </li>
+          </ul>
         </p>
         <p>
           <a href="https://github.com/sungjun0110/project4" target="_blank">Visit Github</a>

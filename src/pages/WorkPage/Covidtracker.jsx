@@ -23,9 +23,6 @@ function Covidtracker() {
           On the main page, I put a map, a chart and a table to visually show the cases of Covid-19. The dots on the map have different colors so to represent how bad the pandemic is in specific locations. The chart can show the numbers of one country or compare several countries. The table has a search bar that can be used to find a specific country. When you click on a row in the table, it moves the map and changes the chart to show the data of a country that you click. On the left side of the main page, I put some videos like recent news about Covid-19 and how to wash your hands. 
         </p>
         <p>
-          The website is not responsive because I did not know how to build a responsive web at the time. However, I used a plugin that creates a subdomain for a mobile website, and I built the mobile website separately for the mobile subdomain. 
-        </p>
-        <p>
           In the beginning, I manually updated the database because there were only few countries with confirmed cases. But the manual update was not efficient at all after the virus started spreading rapidly. So, I wrote python scripts to update the database automatically. This website is very first one that I built, so I learned a lot from building this. 
         </p>
         <p>

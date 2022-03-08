@@ -29,6 +29,9 @@ function Covidtracker() {
             <li>
               API to handle request/response data between a client and MongoDB database
             </li>
+            <li>
+              Implemented Token-based credential system
+            </li>
           </ul>
         </p>
         <p>

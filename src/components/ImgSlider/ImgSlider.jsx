@@ -12,10 +12,10 @@ function ImgSlider({ photos }) {
 
   function buttonHandler(direction) {
     if (direction === 'prev' && idx > 0) {
-      idx --;
+      idx--;
       setPhoto(photos[idx])
     } else if (direction === 'next' && idx < photos.length - 1) {
-      idx ++;
+      idx++;
       setPhoto(photos[idx])
     }
   }

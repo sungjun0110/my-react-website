@@ -8,6 +8,7 @@ import Givetake from '../WorkPage/Givetake';
 import PhotoPin from '../WorkPage/PhotoPin';
 import Minesweeper from '../WorkPage/Minesweeper';
 import AndroidApp from '../WorkPage/Sosapp';
+import UI from '../WorkPage/UI';
 // import TinderClone from './components/content/work/Tinderclone'
 // import Journal from './components/content/work/Journal'
 // import TodoList from './components/content/work/Todo'
@@ -25,6 +26,7 @@ function App() {
           <Route path="/website/photopin" element={<PhotoPin />} />
           <Route path="/website/minesweeper" element={<Minesweeper />} />
           <Route path="/website/androidapp" element={<AndroidApp />} />
+          <Route path="/website/ui" element={<UI />} />
           <Route path="/*" element={<Navigate replace to='/website' />} />
           {/* <Route path="/website/tinderclone" component={TinderClone} /> */}
           {/* <Route path="/website/todolist" component={TodoList} /> */}

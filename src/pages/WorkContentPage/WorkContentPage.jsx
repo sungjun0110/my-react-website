@@ -13,7 +13,13 @@ function WorkContentPage( props ) {
           <h1>Projects</h1>
           <h2>Web Development</h2>
           <div className="main-col">
-          <WorkContentBox 
+            <WorkContentBox
+              image='https://i.imgur.com/E1b4fD0.png'
+              path="/website/ui"
+              alt="ui patterns" 
+              description="UI Components"
+            />
+            <WorkContentBox 
               image='https://camo.githubusercontent.com/d1459350931c8ae6b2f28526cd9fc1622b540f05b710d0daecf08d13d6aa741b/68747470733a2f2f692e696d6775722e636f6d2f68644476456e322e706e67' 
               path="/website/givetake" 
               alt="ncovtracker.com" 

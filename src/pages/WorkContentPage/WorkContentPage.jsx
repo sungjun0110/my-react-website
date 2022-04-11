@@ -3,7 +3,6 @@ import WorkContentBox from '../../components/WorkCententBox/WorkContentBox'
 import ncovtracker from '../../img/ncovtracker.png'
 import sushikuma from '../../img/sushikumalogo.png'
 import sosimg from '../../img/sosimg.png'
-import tinderClone from '../../img/tinderclonelogo.png'
 
 function WorkContentPage( props ) {
   return (
@@ -48,12 +47,6 @@ function WorkContentPage( props ) {
               path="/website/sushikuma" 
               alt="sushikuma.net" 
               description="Touch-free restaurant menu" 
-            />
-            <WorkContentBox
-              image={tinderClone} 
-              path="/website/tinderclone" 
-              alt="tinderclone"
-              description="Tinder Clone"
             />
           </div>
 

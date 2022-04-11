@@ -3,6 +3,17 @@
   color: var(--color7);
 }
 
+#projects::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  height: 100px;
+  width: 100%;
+  background-color: var(--color2);
+  clip-path: ellipse(60% 100% at 50% 0%);
+}
+
 #projects h1 {
   font-size: var(--title-font-size);
 }

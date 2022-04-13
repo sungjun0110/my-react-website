@@ -2,10 +2,10 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  overflow: visible;
+  overflow: hidden;
   width: 100vw;
-  height: 100%;
-  top: -100%;
+  height: 160%;
+  top: -60%;
 }
 
 .icon-row {
@@ -14,10 +14,11 @@
   display: flex;
   flex-direction: row;
   white-space: nowrap;
+  margin: 20px 0;
   transform: rotate(-30deg);
 }
 
-.icon-row div {
+.icon-row div:nth-child(odd) {
   animation: animate 500s linear infinite;
   animation-delay: -500s;
 }

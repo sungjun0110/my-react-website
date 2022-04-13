@@ -4,21 +4,21 @@ import { FaArrowUp, FaGithub } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <footer>
-      
-
-      <div id="footer-icons">
-        <a href="https://github.com/sungjun0110"><FaGithub /></a>
-      </div>
-
-      <p>© 2022 Sungjun Choi</p>
-
-      <IconContext.Provider value={{size: "3rem"}}>
-        <div className="scroll-up" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
-          <FaArrowUp />
+    <div id='footer-shadow-filter'>
+      <footer>
+        <div id="footer-icons">
+          <a href="https://github.com/sungjun0110"><FaGithub /></a>
         </div>
-      </IconContext.Provider>
-    </footer>
+
+        <p>© 2022 Sungjun Choi</p>
+
+        <IconContext.Provider value={{size: "3rem"}}>
+          <div className="scroll-up" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
+            <FaArrowUp />
+          </div>
+        </IconContext.Provider>
+      </footer>
+    </div>
   )
 }
 

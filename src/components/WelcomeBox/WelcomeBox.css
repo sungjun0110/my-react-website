@@ -10,7 +10,7 @@
 }
 
 #picture-frame-wrap {
-  filter: drop-shadow(0px 10px 10px rgba(26, 26, 26, 0.5));
+  filter: drop-shadow(0px 0px 20px rgba(26, 26, 26, 0.8));
   height: calc(50% - 200px);
   width: 100%;
 }

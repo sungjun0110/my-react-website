@@ -18,7 +18,7 @@ function Homepage() {
 
   return (
     <div id="home">
-      <Background resolution={resolution} />
+      <Background />
       <WelcomeBox />
       <div id="about">
         <AboutPage />

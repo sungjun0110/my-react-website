@@ -1,9 +1,8 @@
-import { useState, useEffect } from 'react';
 import { IconContext } from 'react-icons'
 import './Background.css'
 import { FaReact, FaJava, FaCss3, FaGit, FaGithub, FaJs, FaNpm, FaNode, FaPhp, FaPython, FaWordpressSimple, FaWindows, FaHtml5, FaNodeJs } from 'react-icons/fa'
 
-function Background({ resolution }) {
+function Background() {
   const iconsRow = 
     <>
       <FaReact />

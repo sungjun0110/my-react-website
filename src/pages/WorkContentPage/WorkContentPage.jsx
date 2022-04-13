@@ -4,7 +4,7 @@ import ncovtracker from '../../img/ncovtracker.png'
 import sushikuma from '../../img/sushikumalogo.png'
 import sosimg from '../../img/sosimg.png'
 
-function WorkContentPage( props ) {
+function WorkContentPage() {
   return (
     <>
       <div id="work-background">

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef } from 'react'
 import './AboutPage.css'
 import { FaReact, FaJava, FaCss3, FaGit, FaGithub, FaJs, FaNpm, FaNode, FaPhp, FaPython, FaWordpressSimple, FaWindows, FaHtml5, FaNodeJs } from 'react-icons/fa'
 import { IconContext } from 'react-icons'
@@ -34,20 +34,28 @@ function About() {
             <h2 id="skills-title">Skills</h2>
             <div id="skill-div">
               <div className="skill-icon-div">
+                <FaJs />
+                <p>JavaScript</p>
+              </div>
+              <div className="skill-icon-div">
                 <FaReact />
                 <p>React</p>
               </div>
               <div className="skill-icon-div">
-                <FaJava />
-                <p>Java</p>
+                <FaHtml5 />
+                <p>Html5</p>
               </div>
               <div className="skill-icon-div">
                 <FaCss3 />
                 <p>CSS3</p>
               </div>
               <div className="skill-icon-div">
-                <FaJs />
-                <p>JavaScript</p>
+                <FaNodeJs />
+                <p>Node.js</p>
+              </div>
+              <div className="skill-icon-div">
+                <FaWordpressSimple />
+                <p>WordPress</p>
               </div>
               <div className="skill-icon-div">
                 <FaPhp />
@@ -56,6 +64,10 @@ function About() {
               <div className="skill-icon-div">
                 <FaPython />
                 <p>Python</p>
+              </div>
+              <div className="skill-icon-div">
+                <FaJava />
+                <p>Java</p>
               </div>
             </div>
           </IconContext.Provider>

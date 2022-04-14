@@ -7,7 +7,7 @@ import sosimg from '../../img/sosimg.png'
 function WorkContentPage() {
   return (
     <>
-      <div id="work-background">
+      <div id="projects-shadow">
         <div id="projects">
           <h1>Projects</h1>
           <h2>Web Development</h2>

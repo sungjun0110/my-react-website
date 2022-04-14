@@ -3,8 +3,8 @@ import WelcomeBox from '../../components/WelcomeBox/WelcomeBox';
 import WorkContentPage from '../WorkContentPage/WorkContentPage';
 import AboutPage from '../AboutPage/AboutPage'
 import Background from '../../components/Background/Background';
-import './Homepage.css'
 import ContactMe from '../../components/ContactMe/ContactMe';
+import './Homepage.css';
 
 function Homepage() {
   const [resolution, setResolution] = useState({ height: window.innerHeight, width: window.innerWidth });
@@ -20,7 +20,7 @@ function Homepage() {
     <div id="home">
       <Background />
       <WelcomeBox />
-      <div id="about">
+      <div id="content-shadow">
         <AboutPage />
         <WorkContentPage />
       </div>

@@ -16,18 +16,17 @@ function Header() {
   
   useEffect(() => {
     if (window.location.pathname === '/website/') {
-      const about = document.getElementById('about');
+      const about = document.getElementById('content-shadow');
       const projects = document.getElementById('projects');
       const contact = document.getElementById('contact');
 
-      if (scrollPosition < about.offsetTop) setUrl('#home');
-      else if (scrollPosition < projects.offsetTop) setUrl('#about');
+      if (scrollPosition < (about.offsetTop - 100)) setUrl('#home');
+      else if (scrollPosition < (about.offsetTop + projects.offsetTop - 50)) setUrl('#about');
       else if (scrollPosition < contact.offsetTop) setUrl('#projects');
       else if (scrollPosition >= contact.offsetTop) setUrl('#contact');
     } else {
       setUrl('#projects');
     }
-
     return () => {
       setUrl();
     }

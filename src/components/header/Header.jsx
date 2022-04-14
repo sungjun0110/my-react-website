@@ -4,6 +4,7 @@ import './Header.css';
 
 function Header() {
   const [url, setUrl] = useState();
+  const [urlPositions, setUrlPositions] = useState([]);
   const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(() => {
@@ -19,6 +20,8 @@ function Header() {
       const about = document.getElementById('content-shadow');
       const projects = document.getElementById('projects');
       const contact = document.getElementById('contact');
+
+      setUrlPositions([0, about.offsetTop, about.offsetTop + projects.offsetTop, contact.offsetTop]);
 
       if (scrollPosition < (about.offsetTop - 100)) setUrl('#home');
       else if (scrollPosition < (about.offsetTop + projects.offsetTop - 50)) setUrl('#about');
@@ -37,13 +40,11 @@ function Header() {
     setScrollPosition(position);
   }
 
-  function scrollToId(id) {
-    const elem = document.getElementById(id);
+  function scrollToId(position) {
     window.scrollTo({
-      top: elem.offsetTop,
+      top: position,
       behavior: "smooth",
     });
-    setUrl(`#${id}`)
   }
 
   return (
@@ -52,7 +53,7 @@ function Header() {
           <Link smooth="true" to='/website/#home'>
             <li 
               className={(url === '#home' || url === '')? 'active' : null} 
-              onClick={() => scrollToId('home')}
+              onClick={() => scrollToId(urlPositions[0])}
             >
               Home
             </li>
@@ -60,7 +61,7 @@ function Header() {
           <Link smooth="true" to='/website/#about'>
             <li 
               className={(url === '#about')? 'active' : null} 
-              onClick={() => scrollToId('about')}
+              onClick={() => scrollToId(urlPositions[1])}
             >
               About
             </li>
@@ -68,7 +69,7 @@ function Header() {
           <Link smooth="true" to='/website/#projects'>
             <li 
               className={(url === '#projects')? 'active' : null}
-              onClick={() => scrollToId('projects')}  
+              onClick={() => scrollToId(urlPositions[2])}  
             >
               Projects
             </li>
@@ -76,7 +77,7 @@ function Header() {
           <Link smooth="true" to ='/website/#contact'>
             <li 
               className={(url === '#contact')? 'active' : null} 
-              onClick={() => scrollToId('contact')}
+              onClick={() => scrollToId(urlPositions[3])}
             >
               Contact Me
             </li>

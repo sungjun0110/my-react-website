@@ -43,7 +43,7 @@ function Background() {
   }
 
   return (
-    <IconContext.Provider value={{className: "icon", color: 'rgba(0,0,0,0.5)', size:'3rem'}}>
+    <IconContext.Provider value={{className: "icon", size: '3rem'}}>
       <div id="background">
         {icons}
       </div>

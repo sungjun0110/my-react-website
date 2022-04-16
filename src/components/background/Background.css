@@ -73,6 +73,7 @@
 .icon {
   transition: .5s;
   padding: 3rem 1rem;
+  color: rgba(0,0,0,0.5);
 }
 
 .icon:hover{

@@ -23,8 +23,8 @@ function Header() {
 
       setUrlPositions([0, about.offsetTop, about.offsetTop + projects.offsetTop, contact.offsetTop]);
 
-      if (scrollPosition < (about.offsetTop - 100)) setUrl('#home');
-      else if (scrollPosition < (about.offsetTop + projects.offsetTop - 50)) setUrl('#about');
+      if (scrollPosition < (about.offsetTop - 130)) setUrl('#home');
+      else if (scrollPosition < (about.offsetTop + projects.offsetTop - 100)) setUrl('#about');
       else if (scrollPosition < contact.offsetTop) setUrl('#projects');
       else if (scrollPosition >= contact.offsetTop) setUrl('#contact');
     } else {
